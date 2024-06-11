@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FF99FF;
+    flex-direction: column;
+    gap: 3em; /* Increased gap to 2em */
+    font-family: 'Didot', serif;
+}
+
+.content {
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-top: 2em;
+    font-size: 1em;
+    line-height: 1.6;
+}
